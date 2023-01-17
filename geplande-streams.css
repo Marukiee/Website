@@ -15,8 +15,8 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  margin: -55px auto 0;
-  padding: 88px 26px;
+  margin: 50px auto 0;
+  padding: 0 24px;
 }
 
 .u-section-1 .u-countdown-counter-1 {
@@ -147,7 +147,7 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  margin: -135px auto 0;
+  margin: -64px auto 0;
   padding: 52px 6px;
 }
 
@@ -338,7 +338,7 @@
   }
 
   .u-section-1 .u-countdown-2 {
-    margin-top: -135px;
+    margin-top: -64px;
   }
 
   .u-section-1 .u-text-1 {
