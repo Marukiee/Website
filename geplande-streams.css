@@ -141,6 +141,12 @@
 .u-section-1 .u-countdown-2 {
   box-shadow: rgba(var(---r),var(---g),var(---b),0);
   text-shadow: rgba(var(---r),var(---g),var(---b),0);
+  transition-duration: 0.5s;
+  --animation-custom_in-translate_x: -200px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
   margin: -135px auto 0;
   padding: 52px 6px;
 }
@@ -304,6 +310,7 @@
 
   .u-section-1 .u-countdown-2 {
     margin-top: -143px;
+    transform: scale(1.1) translateX(0px) translateY(0px);
   }
 
   .u-section-1 .u-text-1 {
@@ -332,7 +339,6 @@
 
   .u-section-1 .u-countdown-2 {
     margin-top: -135px;
-    transform: scale(1.1) translateX(0px) translateY(0px);
   }
 
   .u-section-1 .u-text-1 {
@@ -412,12 +418,6 @@
   }
 
   .u-section-1 .u-countdown-2 {
-    transition-duration: 0.5s;
-    --animation-custom_in-translate_x: -200px;
-    --animation-custom_in-translate_y: 0px;
-    --animation-custom_in-opacity: 0;
-    --animation-custom_in-rotate: 0deg;
-    --animation-custom_in-scale: 1;
     margin-top: -229px;
     margin-left: -50px;
     margin-right: -50px;
