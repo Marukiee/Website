@@ -63,7 +63,15 @@
         </a>
       </div></header>
     <section class="u-clearfix u-gradient u-section-1" id="sec-e809">
-      <div class="u-clearfix u-sheet u-sheet-1"></div>
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-clearfix u-custom-html u-expanded-width u-custom-html-1"><!-- Add a placeholder for the Twitch embed -->
+          <div id="twitch-embed"></div><!-- Load the Twitch embed script -->
+          <script src="https://player.twitch.tv/js/embed/v1.js"></script><!-- Create a Twitch.Player object. This will render within the placeholder div -->
+          <script type="text/javascript"> new Twitch.Player("twitch-embed", {
+    video: "1706344240"
+  }); </script>
+        </div>
+      </div>
     </section>
     
     
