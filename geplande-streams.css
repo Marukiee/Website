@@ -525,6 +525,7 @@
 .u-section-1 .u-text-3 {
   box-shadow: rgba(var(---r),var(---g),var(---b),0);
   text-shadow: rgba(var(---r),var(---g),var(---b),0);
+  font-size: 1.25rem;
 }
 
 .u-section-1 .u-btn-2 {
@@ -548,10 +549,6 @@
   .u-section-1 .u-text-2 {
     margin-left: 0;
     margin-right: 0;
-  }
-
-  .u-section-1 .u-text-3 {
-    font-size: 1.25rem;
   }
 }
 
@@ -960,7 +957,7 @@
   }
 
   .u-section-1 .u-btn-2 {
-    font-size: 2.25rem;
+    font-size: 1.875rem;
     transition-duration: 0.5s;
     text-decoration: underline !important;
     padding: 0;
