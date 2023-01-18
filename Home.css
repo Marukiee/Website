@@ -223,6 +223,7 @@
 
 @media (max-width: 1199px) {
   .u-section-1 .u-gallery-1 {
+    height: 741px;
     width: 645px;
     margin-top: -30px;
     margin-right: 50px;
@@ -281,6 +282,7 @@
 
 @media (max-width: 991px) {
   .u-section-1 .u-gallery-1 {
+    height: 733px;
     width: 632px;
     margin-top: -38px;
     margin-right: -141px;
@@ -368,6 +370,7 @@
 
 @media (max-width: 575px) {
   .u-section-1 .u-gallery-1 {
+    height: 585px;
     margin-top: 226px;
     margin-right: initial;
     margin-left: initial;
