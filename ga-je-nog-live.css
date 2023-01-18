@@ -23,13 +23,13 @@
   width: 41px;
   height: 41px;
   transition-duration: 0.5s;
-  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
   box-shadow: rgba(var(---r),var(---g),var(---b),0);
   text-shadow: rgba(var(---r),var(---g),var(---b),0);
   --animation-custom_in-translate_x: -200px;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  margin: 223px auto 60px;
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
+  margin: 131px auto 60px;
 }
 
 @media (max-width: 1199px) {
