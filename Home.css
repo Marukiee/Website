@@ -68,7 +68,7 @@
 }
 
 .u-section-1 .u-list-item-1 {
-  box-shadow: -2px 0px 15px 0px rgba(0,0,0,0);
+  box-shadow: -2px 0px 40px 0px rgba(0,0,0,0.25);
   transition-duration: 0.5s;
   text-shadow: rgba(var(---r),var(---g),var(---b),0);
   --animation-custom_in-translate_x: -200px;
@@ -105,7 +105,7 @@
 }
 
 .u-section-1 .u-list-item-2 {
-  box-shadow: -2px 0px 15px 0px rgba(0,0,0,0);
+  box-shadow: -2px 0px 40px 0px rgba(0,0,0,0.25);
   text-shadow: rgba(var(---r),var(---g),var(---b),0);
   --animation-custom_in-translate_x: -200px;
   --animation-custom_in-translate_y: 0px;
@@ -142,7 +142,7 @@
 }
 
 .u-section-1 .u-list-item-3 {
-  box-shadow: -2px 0px 15px 0px rgba(0,0,0,0);
+  box-shadow: -2px 0px 40px 0px rgba(0,0,0,0.25);
   text-shadow: rgba(var(---r),var(---g),var(---b),0);
   --animation-custom_in-translate_x: -200px;
   --animation-custom_in-translate_y: 0px;
@@ -179,7 +179,7 @@
 }
 
 .u-section-1 .u-list-item-4 {
-  box-shadow: -2px 0px 15px 0px rgba(0,0,0,0);
+  box-shadow: -2px 0px 40px 0px rgba(0,0,0,0.25);
   transition-duration: 0.5s;
   text-shadow: rgba(var(---r),var(---g),var(---b),0);
   --animation-custom_in-translate_x: -200px;
