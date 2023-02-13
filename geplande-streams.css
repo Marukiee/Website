@@ -1,5 +1,5 @@
  .u-section-1 {
-  background-image: linear-gradient(#b187fd, #9054fc);
+  background-image: linear-gradient(#9054fc, #b187fd);
 }
 
 .u-section-1 .u-sheet-1 {
@@ -947,8 +947,8 @@
   }
 
   .u-section-1 .u-countdown-4 {
-    margin-right: 0;
     margin-left: 0;
+    margin-right: 0;
   }
 
   .u-section-1 .u-text-3 {

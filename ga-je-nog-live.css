@@ -40,9 +40,9 @@
 
 @media (max-width: 575px) {
   .u-section-1 .u-text-1 {
-    font-size: 9.375rem;
     width: auto;
     margin-top: 66px;
+    font-size: 1.875rem;
   }
 
   .u-section-1 .u-text-2 {
