@@ -710,51 +710,26 @@
 }
 
 .u-section-3 .u-form-1 {
-  height: 362px;
-  width: 507px;
-  margin: 19px auto 0;
-}
-
-.u-section-3 .u-form-group-1 {
-  margin-left: 0;
-}
-
-.u-section-3 .u-input-1 {
-  height: 50px;
-  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
-  font-weight: 700;
-  letter-spacing: 0px;
-  font-size: 1.875rem;
-}
-
-.u-section-3 .u-form-group-2 {
-  margin-left: 0;
-}
-
-.u-section-3 .u-input-2 {
-  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
-  font-weight: 700;
-  letter-spacing: 0px;
-  font-size: 1.875rem;
-  height: 50px;
+  height: 68px;
+  width: 570px;
+  margin: 68px auto 0;
 }
 
 .u-section-3 .u-btn-1 {
   letter-spacing: 1px;
   font-weight: 700;
   text-transform: uppercase;
-  box-shadow: 0px 2px 8px 0px rgba(128,128,128,1);
   background-image: none;
-  font-size: 1.25rem;
 }
 
 .u-section-3 .u-text-2 {
-  margin: 0 auto 0 282px;
+  width: 481px;
+  margin: 91px auto 0;
 }
 
 .u-section-3 .u-text-3 {
   font-size: 1.5rem;
-  margin: 30px auto 0 391px;
+  margin: 29px auto 0 391px;
 }
 
 .u-section-3 .u-btn-2 {
@@ -780,13 +755,9 @@
     margin-left: 15px;
   }
 
-  .u-section-3 .u-form-1 {
-    margin-top: -11px;
-  }
-
   .u-section-3 .u-text-2 {
     width: auto;
-    margin-left: auto;
+    margin-top: 351px;
   }
 
   .u-section-3 .u-text-3 {
@@ -807,12 +778,8 @@
     margin-left: 4px;
   }
 
-  .u-section-3 .u-form-1 {
-    margin-top: 0;
-  }
-
   .u-section-3 .u-text-2 {
-    margin-top: 19px;
+    margin-top: 91px;
     margin-right: 57px;
   }
 
@@ -831,11 +798,11 @@
   }
 
   .u-section-3 .u-form-1 {
-    margin-top: 19px;
+    width: 540px;
   }
 
   .u-section-3 .u-text-2 {
-    margin-left: 0;
+    margin-top: 400px;
     margin-right: 0;
   }
 
@@ -845,30 +812,30 @@
 }
 
 @media (max-width: 575px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 789px;
+  }
+
   .u-section-3 .u-text-1 {
     margin-left: 8px;
   }
 
   .u-section-3 .u-form-1 {
-    width: 506px;
-    margin-top: 8px;
-    margin-left: -83px;
-    margin-right: -83px;
+    width: 340px;
   }
 
   .u-section-3 .u-text-2 {
-    margin-top: -52px;
-    margin-left: 3px;
+    margin-top: 95px;
+    margin-right: 3px;
+    margin-left: 0;
   }
 
   .u-section-3 .u-text-3 {
-    margin-top: 43px;
+    margin-top: 46px;
   }
 
   .u-section-3 .u-text-4 {
     width: auto;
-    margin-top: 8px;
-    margin-left: 22px;
-    margin-right: 22px;
+    margin: 15px 22px 60px;
   }
 }
