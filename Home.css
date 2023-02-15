@@ -230,10 +230,10 @@
 }
 
 .u-section-1 .u-shape-1 {
-  width: 700px;
+  width: 1308px;
   height: 10px;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
-  margin: 538px -84px 21px auto;
+  margin: 538px -84px 21px;
 }
 
 @media (max-width: 1199px) {
@@ -296,6 +296,8 @@
 
   .u-section-1 .u-shape-1 {
     width: 570px;
+    margin-right: 0;
+    margin-left: 0;
   }
 }
 
@@ -431,10 +433,6 @@
 
   .u-section-1 .u-text-5 {
     margin: -586px 331px 527px 269px;
-  }
-
-  .u-section-1 .u-shape-1 {
-    margin-right: 0;
   }
 }
 
