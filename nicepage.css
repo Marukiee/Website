@@ -24823,7 +24823,7 @@ a.u-button-style.u-border-20 {
 }
 /*begin-variables font-family*/
 .u-body {
-  font-family: 'Open Sans',sans-serif;
+  font-family: Comfortaa;
 }
 h1,
 h2,
@@ -24852,7 +24852,7 @@ h6 {
 /*end-variables color*/
 /*begin-variables font*/
 .u-custom-font.u-text-font {
-  font-family: 'Open Sans',sans-serif !important;
+  font-family: Comfortaa !important;
 }
 .u-custom-font.u-heading-font {
   font-family: Raleway,sans-serif !important;
@@ -40463,6 +40463,34 @@ a.u-link.u-text-hover-grey-90:hover {
         
         
         
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         --theme-sheet-width-xl: 1140px;
         --theme-sheet-width-lg: 940px;
         --theme-sheet-width-md: 720px;
@@ -40565,6 +40593,10 @@ a.u-link.u-text-hover-grey-90:hover {
         margin-bottom: 20px;
         font-family: Comfortaa;
         }
+        a
+        {
+        text-decoration: underline;
+        }
         .u-btn
         {
         margin-top: 20px;
@@ -40573,6 +40605,10 @@ a.u-link.u-text-hover-grey-90:hover {
         border-left-style: none;
         border-right-style: none;
         border-bottom-style: none;
+        }
+        .u-btn
+        {
+        border-radius: 22px;
         }
         blockquote
         {
@@ -40685,26 +40721,103 @@ a.u-link.u-text-hover-grey-90:hover {
         /** cms-rules **/
 
         /** color-rules **/
+        .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > h1.u-title,
+        .u-gradient > .u-container-layout > h1.u-title,
+        .u-image:not(.u-shading) > .u-container-layout > h1.u-title,
+        h1.u-title
+        {
+        color: #ffffff;
+        }
+        .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > h2.u-subtitle,
+        .u-gradient > .u-container-layout > h2.u-subtitle,
+        .u-image:not(.u-shading) > .u-container-layout > h2.u-subtitle,
+        h2.u-subtitle
+        {
+        color: #ffffff;
+        }
+        .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > h1:not(.u-title),
+        .u-gradient > .u-container-layout > h1:not(.u-title),
+        .u-image:not(.u-shading) > .u-container-layout > h1:not(.u-title),
+        h1:not(.u-title)
+        {
+        color: #ffffff;
+        }
+        .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > h2:not(.u-subtitle),
+        .u-gradient > .u-container-layout > h2:not(.u-subtitle),
+        .u-image:not(.u-shading) > .u-container-layout > h2:not(.u-subtitle),
+        h2:not(.u-subtitle)
+        {
+        color: #ffffff;
+        }
+        .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > h3,
+        .u-gradient > .u-container-layout > h3,
+        .u-image:not(.u-shading) > .u-container-layout > h3,
+        h3
+        {
+        color: #ffffff;
+        }
+        .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > h4,
+        .u-gradient > .u-container-layout > h4,
+        .u-image:not(.u-shading) > .u-container-layout > h4,
+        h4
+        {
+        color: #ffffff;
+        }
+        .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > h5,
+        .u-gradient > .u-container-layout > h5,
+        .u-image:not(.u-shading) > .u-container-layout > h5,
+        h5
+        {
+        color: #ffffff;
+        }
+        .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > h6,
+        .u-gradient > .u-container-layout > h6,
+        .u-image:not(.u-shading) > .u-container-layout > h6,
+        h6
+        {
+        color: #ffffff;
+        }
+        .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > p.u-large-text,
+        .u-gradient > .u-container-layout > p.u-large-text,
+        .u-image:not(.u-shading) > .u-container-layout > p.u-large-text,
+        p.u-large-text
+        {
+        color: #ffffff;
+        }
+        .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > p.u-small-text,
+        .u-gradient > .u-container-layout > p.u-small-text,
+        .u-image:not(.u-shading) > .u-container-layout > p.u-small-text,
+        p.u-small-text
+        {
+        color: #ffffff;
+        }
+        .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > p:not(.u-text-variant),
+        .u-gradient > .u-container-layout > p:not(.u-text-variant),
+        .u-image:not(.u-shading) > .u-container-layout > p:not(.u-text-variant),
+        p:not(.u-text-variant)
+        {
+        color: #ffffff;
+        }
         .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > a,
         .u-gradient > .u-container-layout > a,
         .u-image:not(.u-shading) > .u-container-layout > a,
         a
         {
-        color: #a37fdf;
+        color: #9054fc;
         }
         .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > a:hover,
         .u-gradient > .u-container-layout > a:hover,
         .u-image:not(.u-shading) > .u-container-layout > a:hover,
         a:hover
         {
-        color: #8f63d8;
+        color: #7b33fb;
         }
         .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > .u-btn,
         .u-gradient > .u-container-layout > .u-btn,
         .u-image:not(.u-shading) > .u-container-layout > .u-btn,
         .u-btn
         {
-        background-color: #b187fd;
+        background-color: #9054fc;
         color: #ffffff;
         }
         .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > .u-btn:hover,
@@ -40712,7 +40825,7 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-image:not(.u-shading) > .u-container-layout > .u-btn:hover,
         .u-btn:hover
         {
-        background-color: #9861fc;
+        background-color: #7b33fb;
         color: #e6e6e6;
         }
         .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > .u-btn:focus,
@@ -40720,7 +40833,7 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-image:not(.u-shading) > .u-container-layout > .u-btn:focus,
         .u-btn:focus
         {
-        background-color: #9861fc;
+        background-color: #7b33fb;
         color: #e6e6e6;
         }
         .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > .u-btn:active,
@@ -40728,7 +40841,7 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-image:not(.u-shading) > .u-container-layout > .u-btn:active,
         .u-btn:active
         {
-        background-color: #9861fc;
+        background-color: #7b33fb;
         color: #e6e6e6;
         }
         .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > blockquote,
@@ -40736,14 +40849,73 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-image:not(.u-shading) > .u-container-layout > blockquote,
         blockquote
         {
-        border-color: #a37fdf;
+        border-color: #ffffff;
+        color: #ffffff;
+        }
+        .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > ul:not(.u-unstyled),
+        .u-gradient > .u-container-layout > ul:not(.u-unstyled),
+        .u-image:not(.u-shading) > .u-container-layout > ul:not(.u-unstyled),
+        ul:not(.u-unstyled)
+        {
+        color: #ffffff;
+        }
+        .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > ol,
+        .u-gradient > .u-container-layout > ol,
+        .u-image:not(.u-shading) > .u-container-layout > ol,
+        ol
+        {
+        color: #ffffff;
         }
         /** color-rules **/
 
         /** alt-color-rules **/
+        .u-shading h1.u-title,.u-overlap-contrast .u-header h1.u-title:not(.u-nav-link):not(.u-btn)
+        {
+        color: #111111;
+        }
+        .u-shading h2.u-subtitle,.u-overlap-contrast .u-header h2.u-subtitle:not(.u-nav-link):not(.u-btn)
+        {
+        color: #b3b3b3;
+        }
+        .u-shading h1:not(.u-title),.u-overlap-contrast .u-header h1:not(.u-title):not(.u-nav-link):not(.u-btn)
+        {
+        color: #111111;
+        }
+        .u-shading h2:not(.u-subtitle),.u-overlap-contrast .u-header h2:not(.u-subtitle):not(.u-nav-link):not(.u-btn)
+        {
+        color: #111111;
+        }
+        .u-shading h3,.u-overlap-contrast .u-header h3:not(.u-nav-link):not(.u-btn)
+        {
+        color: #111111;
+        }
+        .u-shading h4,.u-overlap-contrast .u-header h4:not(.u-nav-link):not(.u-btn)
+        {
+        color: #111111;
+        }
+        .u-shading h5,.u-overlap-contrast .u-header h5:not(.u-nav-link):not(.u-btn)
+        {
+        color: #111111;
+        }
+        .u-shading h6,.u-overlap-contrast .u-header h6:not(.u-nav-link):not(.u-btn)
+        {
+        color: #111111;
+        }
+        .u-shading p.u-large-text,.u-overlap-contrast .u-header p.u-large-text:not(.u-nav-link):not(.u-btn)
+        {
+        color: #111111;
+        }
+        .u-shading p.u-small-text,.u-overlap-contrast .u-header p.u-small-text:not(.u-nav-link):not(.u-btn)
+        {
+        color: #111111;
+        }
+        .u-shading p:not(.u-text-variant),.u-overlap-contrast .u-header p:not(.u-text-variant):not(.u-nav-link):not(.u-btn)
+        {
+        color: #111111;
+        }
         .u-custom-color-1 a,.u-body-color a,.u-palette-1-base a,.u-palette-1-dark-3 a,.u-palette-1-dark-2 a,.u-palette-1-dark-1 a,.u-palette-1 a,.u-palette-1-light-1 a,.u-palette-2-base a,.u-palette-2-dark-3 a,.u-palette-2-dark-2 a,.u-palette-2-dark-1 a,.u-palette-2 a,.u-palette-2-light-1 a,.u-palette-3-base a,.u-palette-3-dark-3 a,.u-palette-3-dark-2 a,.u-palette-3-dark-1 a,.u-palette-3 a,.u-palette-3-light-1 a,.u-palette-4-base a,.u-palette-4-dark-3 a,.u-palette-4-dark-2 a,.u-palette-4-dark-1 a,.u-palette-4 a,.u-palette-5-base a,.u-palette-5-dark-3 a,.u-palette-5-dark-2 a,.u-palette-5-dark-1 a,.u-palette-5 a,.u-palette-5-light-1 a,.u-grey-40 a,.u-grey-30 a,.u-grey-90 a,.u-grey-80 a,.u-grey-75 a,.u-black a,.u-grey-70 a,.u-grey-60 a,.u-grey-50 a,.u-grey-dark-3 a,.u-grey-dark-2 a,.u-grey-dark-1 a,.u-grey a,.u-shading a,.u-overlap-contrast .u-header a:not(.u-nav-link):not(.u-btn)
         {
-        color: #d8c8f2;
+        color: #d2bafe;
         }
         .u-custom-color-1 a:hover,.u-body-color a:hover,.u-palette-1-base a:hover,.u-palette-1-dark-3 a:hover,.u-palette-1-dark-2 a:hover,.u-palette-1-dark-1 a:hover,.u-palette-1 a:hover,.u-palette-1-light-1 a:hover,.u-palette-2-base a:hover,.u-palette-2-dark-3 a:hover,.u-palette-2-dark-2 a:hover,.u-palette-2-dark-1 a:hover,.u-palette-2 a:hover,.u-palette-2-light-1 a:hover,.u-palette-3-base a:hover,.u-palette-3-dark-3 a:hover,.u-palette-3-dark-2 a:hover,.u-palette-3-dark-1 a:hover,.u-palette-3 a:hover,.u-palette-3-light-1 a:hover,.u-palette-4-base a:hover,.u-palette-4-dark-3 a:hover,.u-palette-4-dark-2 a:hover,.u-palette-4-dark-1 a:hover,.u-palette-4 a:hover,.u-palette-5-base a:hover,.u-palette-5-dark-3 a:hover,.u-palette-5-dark-2 a:hover,.u-palette-5-dark-1 a:hover,.u-palette-5 a:hover,.u-palette-5-light-1 a:hover,.u-grey-40 a:hover,.u-grey-30 a:hover,.u-grey-90 a:hover,.u-grey-80 a:hover,.u-grey-75 a:hover,.u-black a:hover,.u-grey-70 a:hover,.u-grey-60 a:hover,.u-grey-50 a:hover,.u-grey-dark-3 a:hover,.u-grey-dark-2 a:hover,.u-grey-dark-1 a:hover,.u-grey a:hover
         {
@@ -40764,6 +40936,10 @@ a.u-link.u-text-hover-grey-90:hover {
         background-color: #b68ffd;
         color: #ffffff;
         }
+        .u-shading blockquote,.u-overlap-contrast .u-header blockquote:not(.u-nav-link):not(.u-btn)
+        {
+        color: #b3b3b3;
+        }
         /** alt-color-rules **/
     
 
@@ -40783,9 +40959,9 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-nav-1 {
-  font-size: 1.25rem;
-  font-family: Comfortaa;
   font-weight: 700;
+  font-family: Comfortaa;
+  font-size: 1.25rem;
 }
 
 .u-header .u-nav-2 {
@@ -40859,35 +41035,37 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-footer .u-sheet-1 {
-  min-height: 120px;
+  min-height: 170px;
 }
 
 .u-footer .u-text-1 {
-  width: 417px;
   font-size: 1.125rem;
-  margin: 49px auto;
+  width: 417px;
+  margin: 55px auto 0;
 }
-@media (max-width: 1199px) {
-  .u-footer .u-sheet-1 {
-    min-height: 99px;
-  }
+
+.u-footer .u-text-2 {
+  font-size: 1.125rem;
+  text-decoration: underline !important;
+  width: 417px;
+  margin: 0 auto 57px;
 }
-@media (max-width: 991px) {
-  .u-footer .u-sheet-1 {
-    min-height: 76px;
-  }
+
+.u-footer .u-btn-1 {
+  background-image: none;
+  text-decoration: underline !important;
+  font-size: 1rem;
+  padding: 0;
 }
-@media (max-width: 767px) {
-  .u-footer .u-sheet-1 {
-    min-height: 57px;
-  }
-}
+
+
+
 @media (max-width: 575px) {
-  .u-footer .u-sheet-1 {
-    min-height: 36px;
+  .u-footer .u-text-1 {
+    width: 340px;
   }
 
-  .u-footer .u-text-1 {
+  .u-footer .u-text-2 {
     width: 340px;
   }
 }
