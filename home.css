@@ -672,8 +672,8 @@
 .u-section-2 .u-custom-html-1 {
   height: auto;
   min-height: 130px;
-  width: 364px;
-  margin: 39px auto 0;
+  width: 319px;
+  margin: 38px auto 0;
 }
 
 .u-section-2 .u-text-2 {
@@ -683,7 +683,7 @@
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
   width: 481px;
-  margin: 74px auto 0;
+  margin: 75px auto 0;
 }
 
 .u-section-2 .u-text-3 {
@@ -726,6 +726,13 @@
   padding: 0;
 }
 
+.u-section-2 .u-custom-html-2 {
+  height: auto;
+  min-height: 110px;
+  width: 316px;
+  margin: -287px 112px 60px;
+}
+
 @media (max-width: 1199px) {
   .u-section-2 .u-text-1 {
     width: auto;
@@ -734,12 +741,16 @@
   }
 
   .u-section-2 .u-custom-html-1 {
-    width: 94px;
-    margin-top: 101px;
+    min-height: 110px;
+    width: 316px;
+    margin-top: 49px;
   }
 
   .u-section-2 .u-text-2 {
     width: auto;
+    margin-top: 122px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .u-section-2 .u-text-3 {
@@ -750,7 +761,9 @@
 
   .u-section-2 .u-text-4 {
     width: 338px;
-    margin: 11px auto 58px;
+    margin-top: 11px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -778,12 +791,21 @@
     margin-top: 116px;
   }
 
+  .u-section-2 .u-custom-html-1 {
+    margin-top: 29px;
+  }
+
   .u-section-2 .u-text-2 {
+    margin-top: 142px;
     margin-right: 0;
   }
 
   .u-section-2 .u-text-3 {
     margin-top: 31px;
+  }
+
+  .u-section-2 .u-text-4 {
+    margin-bottom: 0;
   }
 }
 
@@ -796,25 +818,31 @@
 
   .u-section-2 .u-custom-html-1 {
     min-height: 126px;
-    width: 358px;
+    width: 318px;
     margin-top: 40px;
-    margin-left: -9px;
-    margin-right: -9px;
   }
 
   .u-section-2 .u-text-2 {
-    margin-top: 94px;
+    margin-top: 163px;
     margin-right: 3px;
-    margin-left: 0;
   }
 
   .u-section-2 .u-text-3 {
-    margin-top: 62px;
-    margin-left: 55px;
+    margin-top: 33px;
   }
 
   .u-section-2 .u-text-4 {
     width: auto;
-    margin: 15px 22px 60px;
+    margin-top: 15px;
+    margin-left: 22px;
+    margin-right: 22px;
+  }
+
+  .u-section-2 .u-custom-html-2 {
+    min-height: 86px;
+    width: 252px;
+    margin-top: -296px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
